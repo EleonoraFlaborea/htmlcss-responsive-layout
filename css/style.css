@@ -11,7 +11,6 @@ body{
     font-family: 'Helvetica Neue', sans-serif;
     min-width: 767px;
     background-color: #F6F5F3;
-
 }
 
 /* Utils */
@@ -21,7 +20,11 @@ body{
 
 .bottom-space{
     padding-bottom: 15px;
+}
 
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 /* BTN */
@@ -41,7 +44,12 @@ body{
     padding: 5px 10px;
 }
 
+.btn-social{
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 15px;
 
+}
 /* Header */
 .header-container{
     background-color: white;
@@ -105,4 +113,50 @@ i{
 
 .symbol-box {
     line-height: 30px;
+}
+
+/* SECTION: BADGES */
+.badges-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 50px 0;
+}
+
+/*BTN COLOR*/
+.fa-facebook{
+    color: #1D77F3;
+}
+
+.fa-twitter{
+    color: #1F9EFF;
+}
+
+.fa-instagram{
+    color: #E2518B;
+}
+
+.fa-pinterest{
+    color: #E62634;
+}
+
+.fa-youtube{
+    color: #E62222;
+}
+
+/*SECTION: PRESENTATION*/
+
+.title-paragraph{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.img-box{
+    padding: 20px 100px;
+}
+
+.line{
+    border: 2px solid orange;
+    width: 100px;
 }
