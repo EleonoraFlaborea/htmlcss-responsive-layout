@@ -25,7 +25,17 @@
     .banner{
         display: block;
     }
- 
+
+    .img-tiramisu{
+        float: left;
+        width: 300px;
+        margin-right: 10px;
+    }
+
+    .img-box{
+    padding: 20px 0;
+    }
+
 
 
 }
