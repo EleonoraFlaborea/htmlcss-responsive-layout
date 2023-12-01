@@ -95,7 +95,6 @@ a{
     display: none;
 }
 
-
 i{
     color: #FD9613;
 }
@@ -192,9 +191,13 @@ i{
 }
 
 /* Footer */
-footer{
+.container-footer{
     background-color: #7C69A4;
     color: white;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main-footer{
@@ -210,6 +213,5 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-bottom: 50px;
 }
 

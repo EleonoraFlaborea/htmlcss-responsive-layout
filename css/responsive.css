@@ -52,5 +52,18 @@
         padding: 10px 30px;
     }
 
+    .container-footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .box-link li{
+        padding-left: 10px;
+    }
+
+ 
+
+
+
 
 }
