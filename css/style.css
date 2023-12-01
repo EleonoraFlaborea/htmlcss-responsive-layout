@@ -159,6 +159,11 @@ i{
     color: #E62222;
 }
 
+/*SECTION: BANNER*/
+.banner{
+    display: none;
+}
+
 /*SECTION: PRESENTATION*/
 
 .title-paragraph{
