@@ -10,6 +10,18 @@
 
     .extension-text{
         display: inline;
-
     }
+
+    .main-container{
+    padding: 30px 30px;
+    }
+
+    /*griglia*/
+
+    .btn-social{
+        padding: 10px 50px;
+    }
+ 
+
+
 }
