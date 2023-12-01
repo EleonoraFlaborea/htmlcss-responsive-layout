@@ -9,6 +9,59 @@
 
 body{
     font-family: 'Helvetica Neue', sans-serif;
+    min-width: 767px;
+    background-color: #F6F5F3;
+
 }
 
 /* Utils */
+
+
+/* Header */
+.header-container{
+    background-color: white;
+    color: #FD9613;
+    font-family: 'Nerko One', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Main */
+.main-container{
+    padding: 20px 20px;
+}
+
+/*SECTION: TITLE*/
+.title-menu{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.title-summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-video{
+    color: #4E3969;
+    font-size: 30px;
+}
+
+.rate-orange{
+    background-color: #FD9613;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.fa-star{
+    color: #FD9613;
+}
+
+.upper-space{
+    padding-top: 15px;
+}
+
+/*--SECTION: INFO*/
