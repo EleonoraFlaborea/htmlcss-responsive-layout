@@ -15,6 +15,31 @@ body{
 }
 
 /* Utils */
+.upper-space{
+    padding-top: 15px;
+}
+
+.bottom-space{
+    padding-bottom: 15px;
+
+}
+
+/* BTN */
+.btn{
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn-orange{
+    background-color: #FD9613;
+    border-radius: 30px;
+}
+
+.btn-purple{
+    background-color: #7C69A4;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
 
 
 /* Header */
@@ -38,7 +63,7 @@ body{
     font-size: 20px;
 }
 
-.title-summary{
+.card{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,19 +74,35 @@ body{
     font-size: 30px;
 }
 
-.rate-orange{
-    background-color: #FD9613;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 30px;
-}
-
-.fa-star{
+i{
     color: #FD9613;
 }
 
-.upper-space{
-    padding-top: 15px;
+/*--SECTION: INFO*/
+
+.info-menu{
+    background-color: white;
+    padding: 40px 40px;
 }
 
-/*--SECTION: INFO*/
+.box{
+    background-color: rgba(66, 2, 112, 0.1);
+    padding: 20px 20px;
+}
+
+.underline{
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.text-orange{
+    color: #FD9613;
+    font-size: 25px;
+}
+
+.fa-carrot{
+    color: black;
+}
+
+.symbol-box {
+    line-height: 30px;
+}
