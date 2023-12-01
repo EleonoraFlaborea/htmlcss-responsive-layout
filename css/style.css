@@ -27,6 +27,14 @@ img{
     height: auto;
 }
 
+li{
+    list-style-type: none;
+}
+
+a{
+    color: white;
+}
+
 /* BTN */
 .btn{
     color: white;
@@ -160,3 +168,32 @@ i{
     border: 2px solid orange;
     width: 100px;
 }
+
+.paragraph{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+/* Footer */
+footer{
+    background-color: #7C69A4;
+    color: white;
+}
+
+.main-footer{
+    text-align: center;
+    line-height: 30px;
+}
+
+.fa-copyright{
+    color: white;
+}
+
+.box-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
