@@ -56,8 +56,8 @@ a{
     background-color: white;
     border-radius: 30px;
     padding: 10px 15px;
-
 }
+
 /* Header */
 .header-container{
     background-color: white;
@@ -136,6 +136,11 @@ i{
     justify-content: space-around;
 
     padding: 50px 0;
+}
+
+.name-social{
+    color: black;
+    display: none;
 }
 
 /*BTN COLOR*/
